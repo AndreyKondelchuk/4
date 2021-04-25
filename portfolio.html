@@ -29,8 +29,22 @@
           </ul>
         </nav>
         <ul class="contacts-nav">
-          <li><a href="" class="info">info@devstudio.com</a></li>
-          <li><a href="" class="phone">+380961111111</a></li>
+          <li class="contacts-item">
+            <a class="info" href="mail:info@devstudio.com">
+              <svg class="contacts-icon" width="16" height="12">
+                <use href="./img/icomoon/sprite.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="contacts-item">
+            <a class="phone" href="tel:+380961111111">
+              <svg class="contacts-icon" width="16" height="16">
+                <use href="./img/icomoon/sprite.svg#icon-phone"></use>
+              </svg>
+              +380961111111
+            </a>
+          </li>
         </ul>
       </div>
     </header>
@@ -178,7 +192,7 @@
     </main>
     <!--Подвал-->
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-items">
         <div class="footer-contacts">
           <a class="logo" href="WebStudio"
             ><span class="first-logo">Web</span>Studio</a
@@ -187,17 +201,52 @@
             <p>г. Киев, пр-т Леси Украинки, 26</p>
             <ul class="footer-contacts-list">
               <li class="link">
-                <a href="info@devstudio.com" class="footer-contacts-list-link">
-                  info@devstudio.com
-                </a>
+                <a href="info@devstudio.com" class="footer-contacts-list-link"
+                  >info@devstudio.com</a
+                >
               </li>
               <li class="link">
-                <a href="+380991111111" class="footer-contacts-list-link">
-                  +380991111111
-                </a>
+                <a href="+380991111111" class="footer-contacts-list-link"
+                  >+380991111111</a
+                >
               </li>
             </ul>
           </address>
+        </div>
+
+        <!--Присоединяйтесь-->
+        <div class="join">
+          <b class="join-networks">присоединяйтесь</b>
+          <ul class="social-networks-list">
+            <li class="networks">
+              <a class="social-networks" href="">
+                <svg class="networks-icon" width="20" height="20">
+                  <use href="./img/icomoon/sprite.svg#icon-instagram2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="networks">
+              <a class="social-networks" href="">
+                <svg class="networks-icon" width="20" height="20">
+                  <use href="./img/icomoon/sprite.svg#icon-twitter2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="networks">
+              <a class="social-networks" href="">
+                <svg class="networks-icon" width="20" height="20">
+                  <use href="./img/icomoon/sprite.svg#icon-facebook2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="networks">
+              <a class="social-networks" href="">
+                <svg class="networks-icon" width="20" height="20">
+                  <use href="./img/icomoon/sprite.svg#icon-linkedin2"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
