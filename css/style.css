@@ -194,7 +194,6 @@ ul {
   padding-top: 200px;
   padding-bottom: 200px;
   max-width: 1600px;
-  background-image: url(../css/img-css/header-Img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -340,7 +339,7 @@ ul {
   margin-bottom: 30px;
 }
 .position {
-  margin-bottom: 0;
+  margin-bottom: 10px;
   color: var(--primary-text-color);
   font-size: 16px;
 }
@@ -525,8 +524,6 @@ ul {
   border-left: 1px solid var(--card-border-line);
   border-bottom: 1px solid var(--card-border-line);
   border-right: 1px solid var(--card-border-line);
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
 }
 /*Присоединяйтесь*/
 .join .join-networks {
